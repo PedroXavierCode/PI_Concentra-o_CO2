@@ -3,6 +3,13 @@
 ## Prime Directive:
 ‘Regardless of what we discover, we understand and truly believe that everyone did the best job he or she could, given what was known at the time, his or her skills and abilities, the resources available, and the situation at hand.’
 
+## Grant docker permissions:
+
+```sh
+$ sudo chmod 666 /var/run/docker.sock
+$ sudo chmod +x /usr/local/bin/docker-compose
+```
+
 ## Dependencies:
 This project depends on the following projects to run correctly (install with the package manager of your distro of choice):
 
