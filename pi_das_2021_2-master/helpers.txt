@@ -1,0 +1,2 @@
+Reset Grafana Admin Password:
+docker exec -ti <container_id> grafana-cli admin reset-admin-password <new_pw>

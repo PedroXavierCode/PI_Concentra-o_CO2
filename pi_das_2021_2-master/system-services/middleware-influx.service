@@ -1,0 +1,14 @@
+[Unit]
+Description=IoT Middleware - Influx
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+User=dme
+ExecStart=/home/dme/influxdb2-2.1.1-linux-amd64/influxd
+
+[Install]
+WantedBy=multi-user.target
